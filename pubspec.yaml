@@ -1,0 +1,29 @@
+name: reparasi_computer
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.17.6 <3.2.2"
+
+dependencies:
+  cloud_firestore: ^4.4.2
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.2.8
+  firebase_core: ^2.6.1
+  firebase_storage: ^11.0.13
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  fluttertoast: ^8.1.3
+  get: 4.6.5
+  get_cli: ^1.8.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
